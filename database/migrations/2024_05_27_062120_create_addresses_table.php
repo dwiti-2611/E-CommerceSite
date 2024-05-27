@@ -23,7 +23,7 @@ return new class extends Migration
             $table->timestamps(); // Adds 'CreatedAt' and 'UpdatedAt' columns
 
             // Foreign key constraint
-            $table->foreign('UserID')->references('id')->on('users');
+            $table->foreign('UserID')->references('UserID')->on('users');
         });
     }
 
