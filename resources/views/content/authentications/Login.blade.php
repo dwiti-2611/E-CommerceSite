@@ -44,7 +44,7 @@
             <p>{{ $message }}</p>
           </div>
           @endif
-          <form id="formAuthentication" class="mb-3" method="POST" action="{{ route('auth-login-basic.post') }}">
+          <form id="formAuthentication" class="mb-3" method="POST" action="{{ route('Login.post') }}">
             @csrf
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
